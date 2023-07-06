@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&family=Fraunces:opsz,wght@9..144,700&family=League+Spartan:wght@400;500;700&family=Outfit:wght@500;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--Light-gray);
+    font-family: 'Archivo', sans-serif;
+    font-family: 'Fraunces', serif;
+    font-family: 'League Spartan', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: .5em;
+    margin: 0 auto;
+    width: 380px;
+    height: 580px;
+    margin-top: 60px;
+    padding: 10px 15px 30px 15px;
+    border-radius: 15px;
+    background: var(--White);
+}
+.container img{
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.title{
+    font-size: 1.5em;
+    color: var(--Dark-blue);
+}
+.parrafo{
+    color: var(--Grayish-blue);
+}
+
+
+
+
+/* ******************footer***************** */
+.attribution {
+    margin-top: 40px;
+    font-size: 11px; 
+    text-align: center; 
+    
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:375px) {
+
+    .container{
+        width: 350px;
+    }
+  
+    
+}
